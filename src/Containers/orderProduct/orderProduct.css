@@ -1,0 +1,20 @@
+
+#sel1 {   
+    width: 79%;
+    margin-left: 2%;
+}
+
+.sellabel {
+    margin-right: 20%;
+}
+
+@media only screen and (max-width:411px){
+    
+    #sel1 {
+        width: 93%;
+    }
+
+    .sellabel {
+        margin-right: 5%;
+    }
+}

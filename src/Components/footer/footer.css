@@ -1,0 +1,452 @@
+.footer {
+    /* margin-top:10px; */
+    width: 100%; 
+    position: relative;
+}
+.mt-4, .my-4 {
+    margin-top:0rem!important;
+}
+footer .row {
+    display: table;
+    margin: 0 auto;
+}
+
+.col {
+    display: inline-block;
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+    width:23%;
+    top:0;
+}
+
+.newConceptLink {
+    color: rgb(14, 155, 236) ;
+}
+
+.newConceptLink:hover {
+   color: white !important;
+   font-weight: bold;
+}
+hr {
+    background-color: white;
+    height:1.5px;
+    width:25%;
+    margin-top:10px;
+    align: right;
+}
+
+.footer-title {
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#download hr {
+    text-align: center;
+    width:30%;
+    margin-bottom: 20px;
+}
+
+#download img {
+    width: 55%;
+    height: auto;
+    margin-left:23%;
+    margin-bottom: 20px;
+} 
+
+#aboutus a {
+    color: white;
+    padding-top:1px !important;
+    padding-bottom: 2px !important;
+    text-align: right !important;
+}
+
+#download a {
+    color: white;
+    padding-top:1px !important;
+    padding-bottom: 2px !important;
+}
+
+#Links a {
+    color: white;
+    padding-top:1px !important;
+    padding-bottom: 2px !important;
+}
+
+#services a {
+    color: white;
+    padding-top:1px !important;
+    padding-bottom: 2px !important;
+
+}
+
+#download a:hover {
+    color: white;
+    padding-top:1px !important;
+    padding-bottom: 2px !important;
+}
+
+#aboutus a:hover {
+    color: white;
+    padding-top:1px !important;
+    padding-bottom: 2px !important;
+}
+
+#services a:hover {
+    color: white;
+    padding-top:1px !important;
+    padding-bottom: 2px !important;
+}
+
+#Links a:hover {
+    color: white;
+    padding-top:1px !important;
+    padding-bottom: 2px !important;
+}
+
+#ServUl li {
+    text-align: right;
+    margin-right:40%;
+}
+
+#Links li {
+    text-align: right; 
+    margin-right:40%; 
+}
+
+#services hr {
+    margin-right:36%;
+}
+
+#Links hr {
+    margin-right:35%;
+}
+
+#aboutUl li {
+    text-align: right;
+    margin-right:43%;
+}
+
+#Links {
+    border:none;
+    border-radius:0px; 
+    background-color: transparent;
+    box-shadow: none;
+}
+
+#footerCR {
+    border-top: solid 1px white;
+    height: 60px;
+}
+
+#footerCR a {
+    color: #20a8d8 !important;
+}
+
+#footerCR img {
+    float: left;
+    margin-right: 20px;
+    margin-top: 0px;
+    width:2%;
+    height: 2%;
+}
+
+.fImage {
+    margin-left: 60px;
+    color: white;
+}
+
+.copyrightsp {
+    float: right;
+    direction: rtl;
+    color: white;
+    margin-right: 50px;
+}
+
+.container-fluid {   
+    padding-right: 0px !important;
+}
+
+@media(max-width: 1060px){
+    #ServUl li {
+       text-align: center
+    }
+
+    #services hr {
+        margin-right:36%;
+    }
+
+    #Links hr {
+        margin-right:35%;
+    }
+
+    #aboutUl li {
+        text-align: center;
+    }
+
+    #Links li {
+        text-align: right;
+    }
+    .container-fluid {
+        padding-right: 0px !important; 
+    }
+}
+
+@media(max-width: 930px){
+    #download  img {
+        width: 60%;
+        height: 15%;
+        margin-left:20%;
+        margin-bottom: 20px;
+    }
+
+    #ServUl li {
+        text-align: center;
+    }
+
+    #services hr {
+        margin-right:36%;
+    }
+     
+    #Links hr {
+        margin-right:35%;
+    }
+    #aboutUl li {
+        text-align: center;
+    }
+
+    #Links li {
+        text-align: right;
+    }
+    .container-fluid {
+        padding-right: 0px !important;     
+    }
+}
+
+@media(max-width: 786px){
+    .container-fluid {
+        padding-right: 0px !important; 
+    }
+   #aboutus a {
+    color: white;
+    padding-top:1px !important;
+    padding-bottom: 2px !important;
+    }
+
+    #download a {
+    color: white;
+    padding-top:1px !important;
+    padding-bottom: 2px !important;
+
+    }
+
+    #Links a {
+    color: white;
+    padding-top:1px !important;
+    padding-bottom: 2px !important;
+    }
+
+    #services a {
+        color: white;
+        padding-top:1px !important;
+        padding-bottom: 2px !important;
+    }
+
+    #download a:hover {
+        color: white;
+        padding-top:1px !important;
+        padding-bottom: 2px !important;
+    }
+
+    #aboutus a:hover {
+        color: white;
+        padding-top:1px !important;
+        padding-bottom: 2px !important;
+    }
+
+    #services a:hover {
+        color: white;
+        padding-top:1px !important;
+        padding-bottom: 2px !important;
+    }
+
+    #Links a:hover {
+        color: white;
+        padding-top:1px !important;
+        padding-bottom: 2px !important;
+    }
+
+    .footer {
+        background-color:#293744 !important;
+        height: auto !important;
+    }
+
+    .col {
+            display: block;
+            width:100%;
+            top:0;
+            margin: 0px;
+    }
+
+   #download h5 {
+       text-align: center;
+        color: white;
+    }
+
+    #download hr {
+        text-align: center;
+        width:20%;
+    }
+
+    #Links li {
+        text-align: right;
+        margin-right:40%!important;   
+    }
+
+    #services li {
+        align-self: right;
+        display: block !important;
+        margin: 1% 5%;   
+        margin-right: 10% !important;
+    }
+
+    #aboutus li {
+        align-self: right;
+        display: block !important;
+        margin: 1% 5%;   
+        margin-right: 10% !important;
+    }
+
+    #download {
+        width: 100%;
+        float: none;
+    }
+
+    #download  img {
+        display: inline-block;
+        width: 30%;
+        height: 10%;
+        margin-left:14%;
+    }
+
+    .playstoreImg {
+        margin-left:10% !important;
+    }
+
+    #download br {
+        display: none;
+    }
+
+    #services hr {
+        text-align: center;
+        width: 25%;
+    }
+
+    #Links hr {
+        text-align: center;
+    }
+
+    h5 {
+        margin-top: 2px;
+        font-size: 14px;
+        color: white;
+    }
+
+    #footerCR {
+        border-top: solid 1px white;
+        height: 60px !important;
+    }
+
+    #footerCR a {
+        color: white;
+    }
+
+    #footerCR img {
+        float: left;
+        margin-right: 20px;
+        margin-top: 0px;
+        width:3%;
+        height: 3%;
+    }
+
+    .copyrightsp {
+        float: right;
+        direction: rtl;
+        color: white;
+        margin-right: 50px;
+        margin-top: 0% !important;
+    }
+
+    .container-fluid {
+        padding-right: 0px !important;
+    }
+    
+}
+
+@media(max-width:411px){
+    .playstoreImg {
+        margin-right:5% !important;
+    }
+
+    #Links li {
+        float: right;
+        text-align: right;
+        display: inline-block !important;
+        margin: 1% 5%;   
+    }
+    #services li {
+        align-self: center;
+        display: inline !important;
+        margin: 1% 5%;   
+    }
+
+    #aboutus li {
+        align-self: center;
+        display: inline-block !important;
+        margin: 1% 5%;   
+    }
+
+    #footerCR {
+        border-top: solid 1px white;
+        height: 60px !important;
+    }
+
+    #footerCR a {
+        color: white;
+    }
+
+    #footerCR img {
+        float: left;
+        margin-right: 10%;
+        margin-top: 0px;
+        width:5%;
+        height: 5%;
+    }
+
+    .copyrightsp {
+        margin-top: 1%;
+        text-align: center;
+    }
+
+    .footer {
+        background-color:#293744 !important;
+        height: auto !important;
+    }
+
+    .container-fluid {   
+        padding-right: 0px !important;
+    }
+}
+
+@media(max-width:360px){
+    .copyrightsp {
+        margin-top: 2% !important;
+        text-align: center;
+        font-size: 11px;
+    }
+
+    .container-fluid {
+        padding-right: 0px !important;
+    }
+}

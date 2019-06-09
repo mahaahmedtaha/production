@@ -1,0 +1,198 @@
+
+#contactusrow {
+    width: 100%;
+    justify-content: flex-start;
+    align-items: stretch;
+    position: relative;
+}
+#conatctusicons img {
+    width: 30px;
+    height: auto !important;
+    border: transparent solid 2px;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+#mailIcone{
+    margin-right: 17px !important;
+}
+container .row {
+    margin-right: 0px !important;
+}
+
+#contimgdiv {
+    display: inline-block;
+    flex:1;
+    top:0;
+    left:0;
+    bottom:0;
+    position: absolute;
+}
+
+#sendcontact {
+    background-color:#293744 ;
+    color: white ;
+    text-align: right !important;
+    float: right !important;
+    width:120px !important; 
+}
+
+#formdiv {
+    top:0;
+    right:0;
+    bottom:0;
+    position: absolute;
+    flex:1;
+    display: inline-block;
+    
+}
+
+#jumbotronID {
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+
+.jumbotron img {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+}
+ 
+h3 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.jumbotron hr {
+    color:#335373;
+    background-color: #335373;
+    height:2px;
+    width: 10%;
+    margin-top: 0px;
+}
+h4 {
+    text-align: center;
+}
+ 
+#comment {
+    width: 78%;
+    margin-left:3%;
+}
+
+::placeholder {
+    text-align: right;
+}
+
+#sendcontact {
+    background-color:#293744;
+    color: white;
+    text-align: right;
+    float: right;
+    width:120px; 
+    margin-bottom: 20px;
+}
+.contact-home-header {
+    margin-top: 20px !important;
+    color: #293744 !important;
+}
+.contact-home-hr{
+    width: 10% !important;
+}
+.contacts-home h6{
+    color: #293744;
+    padding: 5px 19%;
+}
+.contacts-home p {
+    text-align: right;
+    margin-right: 35%;
+    color:black;
+}
+p {
+    text-align: right;
+    margin-right: 35%;
+    color:black;
+}
+.contacts-home img{
+    margin:0px 10px !important;
+}
+span {
+    color:black;
+}
+
+.col-sm-6 a{
+    color: transparent !important;
+}
+
+
+#fb{    
+    background-color: #3B559F;
+}
+
+#insta {
+   background-color: #5A7A9A;
+}
+
+#snap {
+    background-color: #F7E603
+}
+
+#twitter {
+    background-color: #04A7D1
+}
+
+#youtube {
+    background-color: #D10404;
+    margin-right: 35% !important;
+}
+/* 
+#homeimg  {
+    width:80%;
+    height: 10%;
+    /* margin-left:20%;
+    margin-top: 0px; */
+ /*   
+} */
+#homeimg {
+    padding: inherit;
+    
+}
+#homeimg img {
+    width: 100% !important;
+    height: auto;
+    background-image:linear-gradient(180deg, #df39392e 0%, #8817176e 100%);
+}
+
+
+@media(max-width:786px){
+    #homeimg img {
+        width:80%;
+        height: 100%;
+        margin-left: 0%;
+        margin-top: 50%;
+    }
+
+    #homeimg img {
+        width:80%;
+        height: 90%;
+        margin-top: 0px; 
+    }
+    
+    #youtube {
+        margin-right: 15% !important;
+    }
+
+    #conatctusicons p {
+        font-size: 16px;
+        margin-right: 15%;
+    }
+
+    #conatctusicons h4 {
+        font-size: 18px;
+    }
+
+    #comment {
+        width: 93%;
+        margin-left:3%;
+    }
+}

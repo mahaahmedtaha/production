@@ -1,0 +1,125 @@
+.bm-item {
+    display: none;
+    transition: color 0.2s;
+  }
+
+.Sectodiv {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+  }
+
+.bm-burger-button {
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    right:0px;
+    top: 25px;
+    margin-right:40px;
+    display: none;
+  }
+
+.bm-burger-bars {
+    background: white;
+  }
+
+.dropdownlist {
+    position: absolute;
+    right:34% !important;  
+    margin-top:22% !important;
+    background-color: transparent !important;
+    z-index: 1233;
+  }
+
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+    float: right;
+  }
+
+.bm-cross {
+    background-color: white;
+  }
+  
+.bm-menu {
+    background: #335373;
+    padding: 2.5em 1.5em 0;
+    border-color: black;
+    font-size: 1.15em;
+    width: 250px;
+    float: right;
+  }
+  
+.bm-morph-shape {
+    fill: #373a47;
+  }
+  
+.bm-item-list {
+    text-align: right;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+  }
+.menu-item {
+    color: Black;
+  }
+
+.toright {
+    float:right;
+    display: none;
+}
+
+.item {
+   float:right;
+}
+  /* dropdown style */
+.dropdown {
+    float:left;
+    display: block ;
+}
+
+.NavBtn {
+    padding-right: 5px;
+}
+
+.Navtitle {
+    color:white;
+}
+  /* end of dropdown style */
+@media only screen and (max-width: 750px) {
+      .bm-burger-button {
+        display: inline;
+      }
+
+      .bm-item {
+        display: inline;
+      }
+
+      .toright {
+        display: inline-block;
+      }
+   
+    .dropdownlist {
+      position: absolute;
+      right:34% !important;  
+      margin-top:120px!important;
+      background-color: transparent !important;
+      z-index: 1233;
+      }
+      
+  } 
+
+  @media only screen and (max-width: 450px) {
+    .dropdownlist {
+      position: absolute;
+      right:10% !important;  
+      margin-top:120px !important;
+      background-color: transparent !important;
+      z-index: 1233;
+      }
+  }

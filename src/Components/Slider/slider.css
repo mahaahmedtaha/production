@@ -1,0 +1,178 @@
+
+
+.cursoleStyle {
+    background-color: transparent;
+    width:100%;
+    height:40%;
+    top:0;
+}
+
+#rightarrow {
+    position: absolute;
+    z-index: 14;
+}
+
+.slick-prev {
+    margin-left: 2% !important;
+    background-color: transparent !important;
+    z-index: 14;
+    top: 115px !important;
+} 
+
+.slick-next {
+        margin-right: 4.5%;
+        background-color: transparent !important;
+        z-index: 14;
+        top: 115px !important;
+}
+
+.slick-prev:before, .slick-next:before {
+        font-size: 50px !important;
+}
+
+.leftcursoleLabel {
+    width:99% !important;
+    background-color: #335373;
+    display: block !important;
+    margin-left: 1%;
+    height: 200px; 
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.leftcursoleLabel:hover {
+    height: 215px;   
+    margin-top:1%; 
+    cursor: pointer;
+    transition-duration: 0.25s;
+}
+
+.leftcursoleLabel:hover #cursolebutton {
+    display: block;
+}
+
+.medimcursoleLabel {
+    width:99% !important;
+    background-color: #293744;
+    display: block !important;
+    margin-left: 1%;
+    height: 200px; 
+    margin-top: 5%;  
+    /* cursor: pointer; */
+}
+
+.medimcursoleLabel:hover {
+    height: 215px;  
+    margin-top:1%; 
+    /* cursor: pointer; */
+    transition-duration: 0.25s;
+}
+
+.medimcursoleLabel:hover #cursolebutton {
+    display: block;
+}
+
+.rightcursoleLabel {
+    width:99% !important;
+    background-color: #5A7A9A;
+    display: block !important;
+    margin-left: 1%;
+    height: 200px; 
+    margin-top: 5%;
+    /* cursor: pointer; */
+}
+
+.rightcursoleLabel:hover {
+    height: 215px;  
+    margin-top:1%; 
+    cursor: pointer;
+    transition-duration: 0.25s;
+}
+
+.rightcursoleLabel:hover #cursolebutton {
+    display:block;
+}
+
+.headerstyle {
+    padding-top: 10%  !important;
+    border: none  !important;
+    background-color: transparent  !important; 
+    font-size: 20 px !important;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.paragraph-style  {
+    background-color: transparent !important;
+    height: 5px !important;
+    padding: 5px 15px !important;
+    font-size: 13px !important;
+    font-family: 'Cairo', sans-serif !important;
+    margin-bottom: 5px !important;
+    width: 100% !important;
+}
+
+#cursolebutton {
+    bottom: 0px !important;
+    margin-top:17% !important;
+    margin-left: calc(50% - 17%);
+    padding: 0px 0px !important;
+    align-self: center;
+    vertical-align: -webkit-baseline-middle;
+    align-self: center;
+    background-color: transparent;
+    text-align: center;
+    font-size: 13px !important;
+    height: 17% !important;
+    display: none;
+    width:35%;
+    border: 1px white solid;
+ }
+
+.cursoleHR {
+    background-color: white;
+    margin-bottom: 2px;
+}
+@media only screen and (max-width:1024px){
+        .slick-next{
+        margin-right: 6% !important; 
+        }
+    }
+
+@media only screen and (max-width:768px){
+    .slick-prev {
+        margin-left: 4% !important; 
+    } 
+    .slick-next {
+        margin-right: 9% !important; 
+    }
+
+    }
+@media only screen and (max-width:425px){
+    .slick-prev{
+         margin-left: 7% !important; 
+    } 
+    .slick-next {
+    margin-right: 14% !important; 
+    }
+}
+@media only screen and (max-width:375px){
+    .slick-prev {
+        margin-left: 7% !important; 
+    } 
+    .slick-next {
+        margin-right: 15% !important; 
+    }
+}
+@media only screen and (max-width:360px){
+    .slick-prev {
+         margin-left: 7% !important; 
+    } 
+    
+    .slick-next {
+        margin-right: 10% !important; 
+    }
+
+    .slick-prev:before, .slick-next:before {
+        font-size: 25px !important;
+    }
+}

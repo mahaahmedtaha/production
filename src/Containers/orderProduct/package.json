@@ -1,6 +1,0 @@
-{
-    "name": "orderProduct",
-    "version": "0.0.0",
-    "private": true,
-    "main": "./orderProduct.js"
-  }

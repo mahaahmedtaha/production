@@ -1,6 +1,0 @@
-{
-    "name": "contactUs",
-    "version": "0.0.0",
-    "private": true,
-    "main": "./contactUs.js"
-  }
